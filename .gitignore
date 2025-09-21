@@ -1,0 +1,18 @@
+# Python
+__pycache__/             # Python cache files (useless for others)
+*.pyc                    # Compiled Python files
+.ipynb_checkpoints/      # Auto-saves Jupyter notebooks
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS/editor
+.DS_Store                # Mac hidden file
+Thumbs.db                # Windows hidden file
+
+# Data
+data/                    # Keep data locally; don’t push raw datasets
+outputs/                 # Generated plots/images stay local
